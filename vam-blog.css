@@ -1,0 +1,38 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+.Mainheading{
+    transition: all;
+}
+
+.Mainheading:hover{
+    color: rgb(97, 144, 156);
+}
+.nav-item>.nav-link:hover{
+    color: red !important; 
+    border-bottom: 2px solid red;
+    transition: all 1s ease-in-out;
+}
+/*end part---------------------------------------------------------*/
+.list-item>a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.list-item>i{
+    color: white;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+.list-item>a:hover{
+    color: red !important; 
+    border-bottom: 2px solid red;
+    transition: all 1s ease-in-out;
+}
+.for-copy-right{
+    background-color: rgb(54, 54, 187) ;
+    color: white;
+    padding: 20px;
+}
